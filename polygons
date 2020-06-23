@@ -1,0 +1,10 @@
+
+import turtle
+a=turtle.Turtle()
+a.speed(0)
+def polygon(n):#number of sides
+	for i in range(n):
+		a.forward(70)
+		a.left(360/n)
+polygon(5)
+turtle.done()

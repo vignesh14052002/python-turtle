@@ -1,0 +1,13 @@
+
+import turtle
+a=turtle.Turtle()
+a.speed(0)
+def polygon_spiral(n,k):#number of sides
+	l=0
+	c=a.xcor()
+	while c-a.xcor()<100:
+		a.forward(l)
+		a.left(360/n)
+		l+=k
+polygon_spiral(5,2)
+turtle.done()
